@@ -1,51 +1,328 @@
 <!doctype html>
-<html lang="en" class="silk-light">
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Gokberk Yagci Personal Website</title>
-  <meta content="Powered by Kobweb" name="description">
-  <link href="/favicon.ico" rel="icon">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
- </head>
- <body>
-  <div id="_kobweb-root" style="width: 100%; height: 100%;">
-   <style>@layer reset-compat, reset, kobweb-compose-compat, kobweb-compose, base-compat, base, component-styles-compat, component-styles, component-variants-compat, component-variants, restricted-styles-compat, restricted-styles, general-styles-compat, general-styles;@layer reset {  html, body { padding: 0px; margin: 0px; }  * { box-sizing: border-box; }}</style>
-   <style>@layer reset-compat, reset, kobweb-compose-compat, kobweb-compose, base-compat, base, component-styles-compat, component-styles, component-variants-compat, component-variants, restricted-styles-compat, restricted-styles, general-styles-compat, general-styles;@layer kobweb-compose {  .kobweb-box { display: grid; grid-template-columns: minmax(0px, 1fr); grid-template-rows: minmax(0px, 1fr); }  .kobweb-box > * { grid-area: 1 / 1; }  .kobweb-box.kobweb-align-top-start { place-items: start; }  .kobweb-box.kobweb-align-top-center { place-items: start center; }  .kobweb-box.kobweb-align-top-end { place-items: start end; }  .kobweb-box.kobweb-align-center-start { place-items: center start; }  .kobweb-box.kobweb-align-center { place-items: center; }  .kobweb-box.kobweb-align-center-end { place-items: center end; }  .kobweb-box.kobweb-align-bottom-start { place-items: end start; }  .kobweb-box.kobweb-align-bottom-center { place-items: end center; }  .kobweb-box.kobweb-align-bottom-end { place-items: end; }  .kobweb-box > .kobweb-align-top-start-self { place-self: start; }  .kobweb-box > .kobweb-align-top-center-self { place-self: start center; }  .kobweb-box > .kobweb-align-top-end-self { place-self: start end; }  .kobweb-box > .kobweb-align-center-start-self { place-self: center start; }  .kobweb-box > .kobweb-align-center-self { place-self: center; }  .kobweb-box > .kobweb-align-center-end-self { place-self: center end; }  .kobweb-box > .kobweb-align-bottom-start-self { place-self: end start; }  .kobweb-box > .kobweb-align-bottom-center-self { place-self: end center; }  .kobweb-box > .kobweb-align-bottom-end-self { place-self: end; }  .kobweb-col { display: flex; flex-direction: column; }  .kobweb-col.kobweb-arrange-top { justify-content: flex-start; }  .kobweb-col.kobweb-arrange-center { justify-content: center; }  .kobweb-col.kobweb-arrange-bottom { justify-content: flex-end; }  .kobweb-col.kobweb-arrange-space-evenly { justify-content: space-evenly; }  .kobweb-col.kobweb-arrange-space-between { justify-content: space-between; }  .kobweb-col.kobweb-arrange-space-around { justify-content: space-around; }  .kobweb-col.kobweb-align-start { align-items: flex-start; }  .kobweb-col.kobweb-align-center-horiz { align-items: center; }  .kobweb-col.kobweb-align-end { align-items: flex-end; }  .kobweb-col > .kobweb-align-start-self { align-self: flex-start; }  .kobweb-col > .kobweb-align-center-horiz-self { align-self: center; }  .kobweb-col > .kobweb-align-end-self { align-self: flex-end; }  .kobweb-row { display: flex; flex-direction: row; }  .kobweb-row.kobweb-arrange-start { justify-content: flex-start; }  .kobweb-row.kobweb-arrange-center { justify-content: center; }  .kobweb-row.kobweb-arrange-end { justify-content: flex-end; }  .kobweb-row.kobweb-arrange-space-evenly { justify-content: space-evenly; }  .kobweb-row.kobweb-arrange-space-between { justify-content: space-between; }  .kobweb-row.kobweb-arrange-space-around { justify-content: space-around; }  .kobweb-row.kobweb-align-top { align-items: flex-start; }  .kobweb-row.kobweb-align-center-vert { align-items: center; }  .kobweb-row.kobweb-align-bottom { align-items: flex-end; }  .kobweb-row > .kobweb-align-top-self { align-self: flex-start; }  .kobweb-row > .kobweb-align-center-vert-self { align-self: center; }  .kobweb-row > .kobweb-align-bottom-self { align-self: flex-end; }  .kobweb-spacer { flex-grow: 1; }  .kobweb-row.kobweb-arrange-spaced-by { column-gap: var(--kobweb-arrange-spaced-by); }  .kobweb-col.kobweb-arrange-spaced-by { row-gap: var(--kobweb-arrange-spaced-by); }}</style>
-   <style>@layer reset-compat, reset, kobweb-compose-compat, kobweb-compose, base-compat, base, component-styles-compat, component-styles, component-variants-compat, component-variants, restricted-styles-compat, restricted-styles, general-styles-compat, general-styles;.silk-light { color-scheme: light; --silk-background-color: rgb(250, 250, 250); --silk-color: black; --silk-border-color: rgba(0, 0, 0, 0.2); --silk-focus-outline-color: rgba(33, 150, 243, 0.5); --silk-placeholder-color: rgb(158, 158, 158); --silk-button-background-default-color: rgb(204, 204, 204); --silk-button-background-hover-color: rgb(163, 163, 163); --silk-button-background-pressed-color: rgb(122, 122, 122); --silk-checkbox-icon-background-color: rgb(33, 150, 243); --silk-checkbox-icon-background-hover-color: rgb(30, 136, 229); --silk-checkbox-icon-color: white; --silk-input-border-hover-color: rgb(158, 158, 158); --silk-input-border-invalid-color: rgb(183, 28, 28); --silk-input-filled-color: rgb(238, 238, 238); --silk-input-filled-hover-color: rgb(214, 214, 214); --silk-input-filled-focus-color: transparent; --silk-overlay-background-color: rgba(0, 0, 0, 0.5); --silk-switch-thumb-color: white; --silk-tab-color: black; --silk-tab-background-color: white; --silk-tab-disabled-background-color: white; --silk-tab-hover-background-color: lightgray; --silk-tab-pressed-background-color: whitesmoke; --silk-tooltip-background-color: black; --silk-tooltip-color: white; }.silk-dark { color-scheme: dark; --silk-background-color: rgb(6, 8, 11); --silk-color: white; --silk-border-color: rgba(255, 255, 255, 0.2); --silk-focus-outline-color: rgba(33, 150, 243, 0.5); --silk-placeholder-color: rgb(158, 158, 158); --silk-button-background-default-color: rgb(51, 51, 51); --silk-button-background-hover-color: rgb(92, 92, 92); --silk-button-background-pressed-color: rgb(133, 133, 133); --silk-checkbox-icon-background-color: rgb(144, 202, 249); --silk-checkbox-icon-background-hover-color: rgb(100, 181, 246); --silk-checkbox-icon-color: black; --silk-input-border-hover-color: rgb(117, 117, 117); --silk-input-border-invalid-color: rgb(229, 115, 115); --silk-input-filled-color: rgb(33, 33, 33); --silk-input-filled-hover-color: rgb(56, 56, 56); --silk-input-filled-focus-color: transparent; --silk-overlay-background-color: rgba(255, 255, 255, 0.5); --silk-switch-thumb-color: white; --silk-tab-color: white; --silk-tab-background-color: black; --silk-tab-disabled-background-color: black; --silk-tab-hover-background-color: darkslategray; --silk-tab-pressed-background-color: darkgray; --silk-tooltip-background-color: white; --silk-tooltip-color: black; }.silk-light { --silk-link-default-color: blue; --silk-link-visited-color: purple; }.silk-dark { --silk-link-default-color: cyan; --silk-link-visited-color: violet; }@media (prefers-reduced-motion: no-preference) {  html { scroll-behavior: smooth; }}body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-size: 18px; line-height: 1.5; }html, body { height: 100%; }body { scroll-behavior: smooth; }@keyframes silk-checkbox-enabled {   0% { opacity: 0; }  100% { opacity: 1; }}@keyframes side-menu-slide-in {   0% { translate: 100%; }  100% { }}@keyframes hand-shake {   0% { rotate: 0deg; }  25% { rotate: 20deg; }  50% { rotate: -10deg; }  75% { rotate: 10deg; }  100% { rotate: 0deg; }}@keyframes floating {   0% { translate: 0%; }  50% { translate: 0% -15px; }  100% { translate: 0%; }}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-input, .silk-input { appearance: none; color: var(--silk-color); height: var(--silk-input-height); font-size: var(--silk-input-font-size); background-color: transparent; outline: transparent solid 0px; border: 0px solid transparent; transition: border-color var(--silk-input-color-transition-duration, var(--silk-transition-duration-normal, 200ms)), box-shadow var(--silk-input-color-transition-duration, var(--silk-transition-duration-normal, 200ms)), background-color var(--silk-input-color-transition-duration, var(--silk-transition-duration-normal, 200ms)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-input::placeholder, .silk-input::placeholder { opacity: var(--silk-input-placeholder-opacity, var(--silk-placeholder-opacity, 1)); color: var(--silk-input-placeholder-color, var(--silk-placeholder-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-input-group, .silk-input-group { outline: transparent solid 0px; border: 0px solid transparent; border-radius: var(--silk-input-border-radius); font-size: var(--silk-input-font-size); }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).silk-disabled, .silk-disabled { opacity: 0.5; cursor: not-allowed; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).silk-smooth-color, .silk-smooth-color { transition: background-color var(--silk-smooth-color-transition-duration, var(--silk-transition-duration-normal, 200ms)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-button, .silk-button { color: var(--silk-button-color, var(--silk-color)); background-color: var(--silk-button-background-default-color); line-height: 1.2; height: var(--silk-button-height); min-width: var(--silk-button-height); font-size: var(--silk-button-font-size); font-weight: 600; white-space: nowrap; padding: 0px var(--silk-button-padding-horizontal); vertical-align: middle; border-radius: 0.375rem; border-width: 0px; user-select: none; transition: background-color var(--silk-button-color-transition-duration, var(--silk-transition-duration-normal, 200ms)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-button:hover:not([aria-disabled="true"]), .silk-button:hover:not([aria-disabled="true"]) { background-color: var(--silk-button-background-hover-color); cursor: pointer; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-button:focus-visible:not([aria-disabled="true"]), .silk-button:focus-visible:not([aria-disabled="true"]) { outline: transparent solid 2px; box-shadow: 0px 0px 0 0.1875rem var(--silk-button-background-focus-color, var(--silk-focus-outline-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-button:active:not([aria-disabled="true"]), .silk-button:active:not([aria-disabled="true"]) { background-color: var(--silk-button-background-pressed-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-callout, .silk-callout { text-align: start; margin-block: 1em; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-callout > .callout-title, .silk-callout > .callout-title { display: flex; align-items: center; font-weight: 500; font-size: var(--silk-callout-title-font-size); gap: var(--silk-callout-title-gap, 0.5rem); line-height: var(--silk-callout-title-line-height, 1); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-checkbox, .silk-checkbox { gap: var(--silk-checkbox-spacing, 0.5rem); user-select: none; font-size: var(--silk-checkbox-font-size); cursor: pointer; position: relative; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-checkbox-icon-container, .silk-checkbox-icon-container { font-size: var(--silk-checkbox-icon-size); width: var(--silk-checkbox-size); height: var(--silk-checkbox-size); border: var(--silk-checkbox-border-width, 0.125rem) solid var(--silk-checkbox-border-color, var(--silk-border-color)); border-radius: var(--silk-checkbox-border-radius, 0.125rem); transition: background-color var(--silk-checkbox-transition-duration, var(--silk-transition-duration-very-fast, 100ms)), border-color var(--silk-checkbox-transition-duration, var(--silk-transition-duration-very-fast, 100ms)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-checkbox-icon, .silk-checkbox-icon { width: var(--silk-checkbox-size); height: var(--silk-checkbox-size); color: var(--silk-checkbox-icon-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-overlay, .silk-overlay { background-color: var(--silk-overlay-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-popup, .silk-popup { transition: opacity var(--silk-popup-transition-duration, var(--silk-transition-duration-fast, 150ms)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-simple-grid, .silk-simple-grid { display: grid; }}}@scope (.silk-light, .silk-dark) {  @media (min-width: 0px) {  @layer component-styles {  :where(&).silk-simple-grid, .silk-simple-grid { grid-template-columns: repeat(var(--silk-simple-grid-col-count-zero), 1fr); }}}}@scope (.silk-light, .silk-dark) {  @media (min-width: 30rem) {  @layer component-styles {  :where(&).silk-simple-grid, .silk-simple-grid { grid-template-columns: repeat(var(--silk-simple-grid-col-count-sm), 1fr); }}}}@scope (.silk-light, .silk-dark) {  @media (min-width: 48rem) {  @layer component-styles {  :where(&).silk-simple-grid, .silk-simple-grid { grid-template-columns: repeat(var(--silk-simple-grid-col-count-md), 1fr); }}}}@scope (.silk-light, .silk-dark) {  @media (min-width: 62rem) {  @layer component-styles {  :where(&).silk-simple-grid, .silk-simple-grid { grid-template-columns: repeat(var(--silk-simple-grid-col-count-lg), 1fr); }}}}@scope (.silk-light, .silk-dark) {  @media (min-width: 80rem) {  @layer component-styles {  :where(&).silk-simple-grid, .silk-simple-grid { grid-template-columns: repeat(var(--silk-simple-grid-col-count-xl), 1fr); }}}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-surface, .silk-surface { background-color: var(--silk-surface-background-color, var(--silk-background-color)); color: var(--silk-surface-color, var(--silk-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-horizontal-divider, .silk-horizontal-divider { border-top: 1px solid var(--silk-divider-color, var(--silk-border-color)); width: 100%; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-vertical-divider, .silk-vertical-divider { border-left: 1px solid var(--silk-divider-color, var(--silk-border-color)); height: var(--silk-divider-length, 90%); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-switch, .silk-switch { position: relative; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-switch-track, .silk-switch-track { width: var(--silk-switch-track-width); min-width: var(--silk-switch-track-width); height: var(--silk-switch-track-height); min-height: var(--silk-switch-track-height); padding: var(--silk-switch-track-padding); border-radius: var(--silk-switch-border-radius, 9999px); background-color: var(--silk-switch-track-background-color); transition: background-color var(--silk-switch-transition-duration, var(--silk-transition-duration-fast, 150ms)); box-sizing: content-box; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-switch-track:hover:not([aria-disabled="true"]), .silk-switch-track:hover:not([aria-disabled="true"]) { cursor: pointer; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-switch-thumb, .silk-switch-thumb { width: var(--silk-switch-track-height); height: var(--silk-switch-track-height); border-radius: var(--silk-switch-border-radius, 9999px); background-color: var(--silk-switch-thumb-color); translate: var(--silk-switch-thumb-offset); transition: translate var(--silk-switch-transition-duration, var(--silk-transition-duration-fast, 150ms)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tabs-tab-row, .silk-tabs-tab-row { width: 100%; border-bottom: var(--silk-tab-border-thickness, 2px) solid var(--silk-tab-border-color, var(--silk-border-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tabs-tab, .silk-tabs-tab { cursor: pointer; transition: background-color var(--silk-tab-color-transition-duration, var(--silk-transition-duration-normal, 200ms)), color var(--silk-tab-color-transition-duration, var(--silk-transition-duration-normal, 200ms)), border-color var(--silk-tab-color-transition-duration, var(--silk-transition-duration-normal, 200ms)); background-color: var(--silk-tab-background-color); color: var(--silk-tab-color); user-select: none; padding: 0.5rem; margin: 0px 0px calc(-1 * var(--silk-tab-border-thickness, 2px)); border-bottom: var(--silk-tab-border-thickness, 2px) solid var(--silk-tab-border-color, var(--silk-border-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tabs-tab[aria-disabled="true"], .silk-tabs-tab[aria-disabled="true"] { background-color: var(--silk-tab-disabled-background-color); cursor: not-allowed; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tabs-tab:hover:not([aria-disabled="true"]), .silk-tabs-tab:hover:not([aria-disabled="true"]) { background-color: var(--silk-tab-hover-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tabs-tab:active:not([aria-disabled="true"]), .silk-tabs-tab:active:not([aria-disabled="true"]) { background-color: var(--silk-tab-pressed-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tabs-panel, .silk-tabs-panel { padding: 1rem; width: 100%; flex-grow: 1; overflow-y: auto; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tooltip-arrow, .silk-tooltip-arrow { position: absolute; border-width: 5px; border-style: solid; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tooltip, .silk-tooltip { position: relative; background-color: var(--silk-tooltip-background-color); color: var(--silk-tooltip-color); border-radius: 6px; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-tooltip-text, .silk-tooltip-text { padding: 5px; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-button-size_xs, .silk-button-size_xs { --silk-button-font-size: var(--silk-font-size-xs, 0.75rem); --silk-button-height: 1.5rem; --silk-button-padding-horizontal: 0.5rem; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-button-size_sm, .silk-button-size_sm { --silk-button-font-size: var(--silk-font-size-sm, 0.875rem); --silk-button-height: 2rem; --silk-button-padding-horizontal: 0.75rem; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-button-size_md, .silk-button-size_md { --silk-button-font-size: var(--silk-font-size-md, 1rem); --silk-button-height: 2.5rem; --silk-button-padding-horizontal: 1rem; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-button-size_lg, .silk-button-size_lg { --silk-button-font-size: var(--silk-font-size-lg, 1.125rem); --silk-button-height: 3rem; --silk-button-padding-horizontal: 1.5rem; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-checkbox-size_sm, .silk-checkbox-size_sm { --silk-checkbox-size: 0.875rem; --silk-checkbox-icon-size: 0.45rem; --silk-checkbox-font-size: var(--silk-font-size-sm, 0.875rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-checkbox-size_md, .silk-checkbox-size_md { --silk-checkbox-size: 1rem; --silk-checkbox-icon-size: 0.625rem; --silk-checkbox-font-size: var(--silk-font-size-md, 1rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-checkbox-size_lg, .silk-checkbox-size_lg { --silk-checkbox-size: 1.25rem; --silk-checkbox-icon-size: 0.8rem; --silk-checkbox-font-size: var(--silk-font-size-lg, 1.125rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-input-size_xs, .silk-input-size_xs { --silk-input-font-size: var(--silk-font-size-xs, 0.75rem); --silk-input-height: 1.25rem; --silk-input-padding: 0.375rem; --silk-input-border-radius: var(--silk-border-radius-xs, 0.125rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-input-size_sm, .silk-input-size_sm { --silk-input-font-size: var(--silk-font-size-sm, 0.875rem); --silk-input-height: 1.75rem; --silk-input-padding: 0.5rem; --silk-input-border-radius: var(--silk-border-radius-sm, 0.25rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-input-size_md, .silk-input-size_md { --silk-input-font-size: var(--silk-font-size-md, 1rem); --silk-input-height: 2.25rem; --silk-input-padding: 0.625rem; --silk-input-border-radius: var(--silk-border-radius-md, 0.375rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-input-size_lg, .silk-input-size_lg { --silk-input-font-size: var(--silk-font-size-lg, 1.125rem); --silk-input-height: 2.5rem; --silk-input-padding: 0.75rem; --silk-input-border-radius: var(--silk-border-radius-md, 0.375rem); }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-switch-size_sm, .silk-switch-size_sm { --silk-switch-track-width: 1.375rem; --silk-switch-track-height: 0.75rem; --silk-switch-track-padding: 0.188rem; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-switch-size_md, .silk-switch-size_md { --silk-switch-track-width: 1.875rem; --silk-switch-track-height: 1rem; --silk-switch-track-padding: 0.188rem; }}}@scope (.silk-light, .silk-dark) {  @layer restricted-styles {  :where(&).silk-switch-size_lg, .silk-switch-size_lg { --silk-switch-track-width: 2.875rem; --silk-switch-track-height: 1.5rem; --silk-switch-track-padding: 0.188rem; }}}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_caution, .silk-callout-type_caution { --silk-callout-color: crimson; --silk-callout-background-color: rgba(220, 20, 60, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_caution, .silk-callout-type_caution { --silk-callout-color: red; --silk-callout-background-color: rgba(255, 0, 0, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_caution_light { --silk-callout-color: crimson; --silk-callout-background-color: rgba(220, 20, 60, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_caution_dark { --silk-callout-color: red; --silk-callout-background-color: rgba(255, 0, 0, 0.2); }}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_important, .silk-callout-type_important { --silk-callout-color: darkorchid; --silk-callout-background-color: rgba(153, 50, 204, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_important, .silk-callout-type_important { --silk-callout-color: darkorchid; --silk-callout-background-color: rgba(153, 50, 204, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_important_light { --silk-callout-color: darkorchid; --silk-callout-background-color: rgba(153, 50, 204, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_important_dark { --silk-callout-color: darkorchid; --silk-callout-background-color: rgba(153, 50, 204, 0.2); }}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_note, .silk-callout-type_note { --silk-callout-color: dodgerblue; --silk-callout-background-color: rgba(30, 144, 255, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_note, .silk-callout-type_note { --silk-callout-color: dodgerblue; --silk-callout-background-color: rgba(30, 144, 255, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_note_light { --silk-callout-color: dodgerblue; --silk-callout-background-color: rgba(30, 144, 255, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_note_dark { --silk-callout-color: dodgerblue; --silk-callout-background-color: rgba(30, 144, 255, 0.2); }}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_question, .silk-callout-type_question { --silk-callout-color: seagreen; --silk-callout-background-color: rgba(46, 139, 87, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_question, .silk-callout-type_question { --silk-callout-color: aquamarine; --silk-callout-background-color: rgba(127, 255, 212, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_question_light { --silk-callout-color: seagreen; --silk-callout-background-color: rgba(46, 139, 87, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_question_dark { --silk-callout-color: aquamarine; --silk-callout-background-color: rgba(127, 255, 212, 0.2); }}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_quote, .silk-callout-type_quote { --silk-callout-color: gray; --silk-callout-background-color: rgba(128, 128, 128, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_quote, .silk-callout-type_quote { --silk-callout-color: gray; --silk-callout-background-color: rgba(128, 128, 128, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_quote_light { --silk-callout-color: gray; --silk-callout-background-color: rgba(128, 128, 128, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_quote_dark { --silk-callout-color: gray; --silk-callout-background-color: rgba(128, 128, 128, 0.2); }}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_tip, .silk-callout-type_tip { --silk-callout-color: limegreen; --silk-callout-background-color: rgba(50, 205, 50, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_tip, .silk-callout-type_tip { --silk-callout-color: limegreen; --silk-callout-background-color: rgba(50, 205, 50, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_tip_light { --silk-callout-color: limegreen; --silk-callout-background-color: rgba(50, 205, 50, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_tip_dark { --silk-callout-color: limegreen; --silk-callout-background-color: rgba(50, 205, 50, 0.2); }}@scope (.silk-light) to (.silk-dark) {  @layer restricted-styles {  :where(&).silk-callout-type_warning, .silk-callout-type_warning { --silk-callout-color: darkorange; --silk-callout-background-color: rgba(255, 140, 0, 0.15); }}}@scope (.silk-dark) to (.silk-light) {  @layer restricted-styles {  :where(&).silk-callout-type_warning, .silk-callout-type_warning { --silk-callout-color: orange; --silk-callout-background-color: rgba(255, 165, 0, 0.2); }}}@layer restricted-styles-compat {  .silk-callout-type_warning_light { --silk-callout-color: darkorange; --silk-callout-background-color: rgba(255, 140, 0, 0.15); }}@layer restricted-styles-compat {  .silk-callout-type_warning_dark { --silk-callout-color: orange; --silk-callout-background-color: rgba(255, 165, 0, 0.2); }}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-link, .silk-link { text-decoration-line: none; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-link:link, .silk-link:link { color: var(--silk-link-default-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-link:visited, .silk-link:visited { color: var(--silk-link-visited-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-link:hover, .silk-link:hover { text-decoration-line: underline; }}}@scope (.silk-light, .silk-dark) {  @layer component-styles {  :where(&).silk-toc, .silk-toc { list-style: none; text-align: start; padding: 0rem; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).headline-text, .headline-text { font-size: 2rem; text-align: start; line-height: 1.2; }}}@scope (.silk-light) to (.silk-dark) {  @layer general-styles {  :where(&).subheadline-text, .subheadline-text { font-size: 1rem; text-align: start; color: rgba(0, 0, 0, 0.8); }}}@scope (.silk-dark) to (.silk-light) {  @layer general-styles {  :where(&).subheadline-text, .subheadline-text { font-size: 1rem; text-align: start; color: rgba(255, 255, 255, 0.8); }}}@layer general-styles-compat {  .subheadline-text_light { font-size: 1rem; text-align: start; color: rgba(0, 0, 0, 0.8); }}@layer general-styles-compat {  .subheadline-text_dark { font-size: 1rem; text-align: start; color: rgba(255, 255, 255, 0.8); }}@scope (.silk-light) to (.silk-dark) {  @layer general-styles {  :where(&).footer, .footer { background-color: rgb(244, 246, 250); padding: 1.5rem 10%; }}}@scope (.silk-dark) to (.silk-light) {  @layer general-styles {  :where(&).footer, .footer { background-color: rgb(19, 23, 31); padding: 1.5rem 10%; }}}@layer general-styles-compat {  .footer_light { background-color: rgb(244, 246, 250); padding: 1.5rem 10%; }}@layer general-styles-compat {  .footer_dark { background-color: rgb(19, 23, 31); padding: 1.5rem 10%; }}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).nav-header, .nav-header { width: 100%; padding: 1rem; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown, .markdown { width: 100%; height: 100%; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown h1, .markdown h1 { font-size: 3rem; font-weight: 400; margin: 0px 0px 2.5rem; line-height: 1.2; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown h2, .markdown h2 { font-size: 3rem; font-weight: 300; margin: 2rem 0px; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown h3, .markdown h3 { font-size: 2.4rem; font-weight: 300; margin: 1.5rem 0px; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown h4, .markdown h4 { font-size: 1.2rem; font-weight: bolder; margin: 1rem 0px 0.5rem; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown ul, .markdown ul { width: 100%; overflow-wrap: break-word; }}}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown :is(li, ol, ul), .markdown :is(li, ol, ul) { margin: 0px 0px 0.25rem; }}}@scope (.silk-light) to (.silk-dark) {  @layer general-styles {  :where(&).markdown code, .markdown code { color: rgba(0, 0, 0, 0.8); font-weight: bolder; }}}@scope (.silk-dark) to (.silk-light) {  @layer general-styles {  :where(&).markdown code, .markdown code { color: rgba(255, 255, 255, 0.8); font-weight: bolder; }}}@layer general-styles-compat {  .markdown_light code { color: rgba(0, 0, 0, 0.8); font-weight: bolder; }}@layer general-styles-compat {  .markdown_dark code { color: rgba(255, 255, 255, 0.8); font-weight: bolder; }}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).markdown pre, .markdown pre { margin: 0.5rem 0px 2rem; width: 100%; }}}@scope (.silk-light) to (.silk-dark) {  @layer general-styles {  :where(&).markdown pre > code, .markdown pre > code { display: block; width: 100%; background-color: rgb(244, 246, 250); border: 1px solid black; border-radius: 0.25rem; padding: 0.5rem; font-size: 1rem; overflow-x: auto; }}}@scope (.silk-dark) to (.silk-light) {  @layer general-styles {  :where(&).markdown pre > code, .markdown pre > code { display: block; width: 100%; background-color: rgb(19, 23, 31); border: 1px solid white; border-radius: 0.25rem; padding: 0.5rem; font-size: 1rem; overflow-x: auto; }}}@layer general-styles-compat {  .markdown_light pre > code { display: block; width: 100%; background-color: rgb(244, 246, 250); border: 1px solid black; border-radius: 0.25rem; padding: 0.5rem; font-size: 1rem; overflow-x: auto; }}@layer general-styles-compat {  .markdown_dark pre > code { display: block; width: 100%; background-color: rgb(19, 23, 31); border: 1px solid white; border-radius: 0.25rem; padding: 0.5rem; font-size: 1rem; overflow-x: auto; }}@scope (.silk-light, .silk-dark) {  @layer general-styles {  :where(&).page-content, .page-content { width: 100%; height: 100%; padding: 4rem 2rem 0px; }}}@scope (.silk-light, .silk-dark) {  @media (min-width: 48rem) {  @layer general-styles {  :where(&).page-content, .page-content { max-width: 60rem; }}}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-outlined, .silk-input-outlined { padding-inline: var(--silk-input-padding) var(--silk-input-padding); border-radius: var(--silk-input-border-radius); border: 1px solid var(--silk-input-border-color, var(--silk-border-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-outlined[aria-invalid="true"], .silk-input-outlined[aria-invalid="true"] { border: 1px solid var(--silk-input-border-invalid-color); box-shadow: 0px 0px 0 1px var(--silk-input-border-invalid-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-outlined:hover:not(:disabled), .silk-input-outlined:hover:not(:disabled) { border-color: var(--silk-input-border-hover-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-outlined:focus-visible:not(:disabled), .silk-input-outlined:focus-visible:not(:disabled) { border: 1px solid var(--silk-input-border-focus-color, var(--silk-focus-outline-color)); box-shadow: 0px 0px 0 1px var(--silk-input-border-focus-color, var(--silk-focus-outline-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-filled, .silk-input-filled { padding-inline: var(--silk-input-padding) var(--silk-input-padding); background-color: var(--silk-input-filled-color); border-radius: var(--silk-input-border-radius); border: 1px solid transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-filled:hover:not(:disabled), .silk-input-filled:hover:not(:disabled) { background-color: var(--silk-input-filled-hover-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-filled[aria-invalid="true"], .silk-input-filled[aria-invalid="true"] { border-color: var(--silk-input-border-invalid-color); box-shadow: 0px 0px 0 1px var(--silk-input-border-invalid-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-filled:focus-visible:not(:disabled), .silk-input-filled:focus-visible:not(:disabled) { background-color: var(--silk-input-filled-focus-color); border-color: var(--silk-input-border-focus-color, var(--silk-focus-outline-color)); box-shadow: 0px 0px 0 1px var(--silk-input-border-focus-color, var(--silk-focus-outline-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-flushed, .silk-input-flushed { border-bottom: 1px solid var(--silk-input-border-color, var(--silk-border-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-flushed[aria-invalid="true"], .silk-input-flushed[aria-invalid="true"] { border-color: var(--silk-input-border-invalid-color); box-shadow: 0px 1px var(--silk-input-border-invalid-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-flushed:hover:not(:disabled), .silk-input-flushed:hover:not(:disabled) { border-color: var(--silk-input-border-hover-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-flushed:focus-visible:not(:disabled), .silk-input-flushed:focus-visible:not(:disabled) { border-color: var(--silk-input-border-focus-color, var(--silk-focus-outline-color)); box-shadow: 0px 1px var(--silk-input-border-focus-color, var(--silk-focus-outline-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered, .silk-callout-left-bordered { border-left: 0.25em solid var(--silk-callout-color); padding: 0.5rem 1rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered > .callout-title, .silk-callout-left-bordered > .callout-title { color: var(--silk-callout-color); margin-bottom: 1rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered > .callout-body > p:first-child, .silk-callout-left-bordered > .callout-body > p:first-child { margin-block-start: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered > .callout-body > p:last-child, .silk-callout-left-bordered > .callout-body > p:last-child { margin-block-end: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered-filled, .silk-callout-left-bordered-filled { border-left: 0.25em solid var(--silk-callout-color); background-color: var(--silk-callout-background-color); border-radius: 4px; padding: 0.75rem 1rem; box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 3px 10px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered-filled > .callout-title, .silk-callout-left-bordered-filled > .callout-title { color: var(--silk-callout-color); margin-bottom: 0.75rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered-filled > .callout-body > p:first-child, .silk-callout-left-bordered-filled > .callout-body > p:first-child { margin-block-start: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-left-bordered-filled > .callout-body > p:last-child, .silk-callout-left-bordered-filled > .callout-body > p:last-child { margin-block-end: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined, .silk-callout-outlined { border: 1px solid var(--silk-callout-color); border-radius: 0.2rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined > .callout-title, .silk-callout-outlined > .callout-title { background-color: var(--silk-callout-background-color); padding: 0.75rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined .callout-icon, .silk-callout-outlined .callout-icon { color: var(--silk-callout-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined > .callout-body, .silk-callout-outlined > .callout-body { padding: 0.75rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined > .callout-body > p:first-child, .silk-callout-outlined > .callout-body > p:first-child { margin-block-start: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined > .callout-body > p:last-child, .silk-callout-outlined > .callout-body > p:last-child { margin-block-end: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined-filled, .silk-callout-outlined-filled { border: 1px solid var(--silk-callout-color); background-color: var(--silk-callout-background-color); border-radius: 4px; padding: 0.75rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined-filled > .callout-title, .silk-callout-outlined-filled > .callout-title { color: var(--silk-callout-color); margin-bottom: 0.75rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined-filled > .callout-body > p:first-child, .silk-callout-outlined-filled > .callout-body > p:first-child { margin-block-start: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-outlined-filled > .callout-body > p:last-child, .silk-callout-outlined-filled > .callout-body > p:last-child { margin-block-end: 0px; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-callout-matching-link :is(:any-link), .silk-callout-matching-link :is(:any-link) { color: var(--silk-callout-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-checkbox, .silk-input-checkbox { border: 0px; width: 1px; height: 1px; margin: -1px; padding: 0px; clip-path: inset(50%); overflow: hidden; white-space: nowrap; position: absolute; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-checkbox:focus-visible + *, .silk-input-checkbox:focus-visible + * { box-shadow: 0px 0px 0 var(--silk-checkbox-focus-outline-spread, 0.1875rem) var(--silk-checkbox-focus-outline-color, var(--silk-focus-outline-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-checkbox:not([aria-disabled]):hover + *, .silk-input-checkbox:not([aria-disabled]):hover + * { --silk-checkbox-icon-background-color: var(--silk-checkbox-icon-background-hover-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-checkbox-icon-container-checked, .silk-checkbox-icon-container-checked { background-color: var(--silk-checkbox-icon-background-color); border-color: var(--silk-checkbox-icon-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-checkbox-icon-container-unchecked, .silk-checkbox-icon-container-unchecked { background-color: var(--silk-checkbox-unchecked-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-switch, .silk-input-switch { border: 0px; width: 1px; height: 1px; margin: -1px; padding: 0px; clip-path: inset(50%); overflow: hidden; white-space: nowrap; position: absolute; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-input-switch:focus-visible + *, .silk-input-switch:focus-visible + * { box-shadow: 0px 0px 0 0.1875rem var(--silk-switch-focus-color, var(--silk-focus-outline-color)); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-top-left, .silk-tooltip-arrow-top-left { margin: -9px 0px 0px 9px; top: 0px; border-color: transparent transparent var(--silk-tooltip-background-color) transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-top, .silk-tooltip-arrow-top { margin: -9px 0px 0px -5px; left: 50%; top: 0px; border-color: transparent transparent var(--silk-tooltip-background-color) transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-top-right, .silk-tooltip-arrow-top-right { margin: -9px 9px 0px 0px; right: 0px; top: 0px; border-color: transparent transparent var(--silk-tooltip-background-color) transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-left-top, .silk-tooltip-arrow-left-top { margin: 9px 0px 0px -9px; left: 0px; top: 0px; border-color: transparent var(--silk-tooltip-background-color) transparent transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-left, .silk-tooltip-arrow-left { margin: -5px 0px 0px -9px; left: 0px; top: 50%; border-color: transparent var(--silk-tooltip-background-color) transparent transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-left-bottom, .silk-tooltip-arrow-left-bottom { margin: 0px 0px 9px -9px; left: 0px; bottom: 0px; border-color: transparent var(--silk-tooltip-background-color) transparent transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-right-top, .silk-tooltip-arrow-right-top { margin: 9px -9px 0px 0px; right: 0px; top: 0px; border-color: transparent transparent transparent var(--silk-tooltip-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-right, .silk-tooltip-arrow-right { margin: -5px -9px 0px 0px; right: 0px; top: 50%; border-color: transparent transparent transparent var(--silk-tooltip-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-right-bottom, .silk-tooltip-arrow-right-bottom { margin: 0px -9px 9px 0px; right: 0px; bottom: 0px; border-color: transparent transparent transparent var(--silk-tooltip-background-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-bottom-left, .silk-tooltip-arrow-bottom-left { margin: 0px 0px -9px 9px; left: 0px; bottom: 0px; border-color: var(--silk-tooltip-background-color) transparent transparent transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-bottom, .silk-tooltip-arrow-bottom { margin: 0px 0px -9px -5px; left: 50%; bottom: 0px; border-color: var(--silk-tooltip-background-color) transparent transparent transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-tooltip-arrow-bottom-right, .silk-tooltip-arrow-bottom-right { margin: 0px 9px -9px 0px; right: 0px; bottom: 0px; border-color: var(--silk-tooltip-background-color) transparent transparent transparent; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-image-fit-width, .silk-image-fit-width { width: 100%; object-fit: scale-down; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-link-uncolored:link, .silk-link-uncolored:link { color: var(--silk-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-link-uncolored:visited, .silk-link-uncolored:visited { color: var(--silk-color); }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-link-undecorated:hover, .silk-link-undecorated:hover { text-decoration-line: none; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-link-always-underlined, .silk-link-always-underlined { text-decoration-line: underline; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-toc-bordered, .silk-toc-bordered { border-radius: 5px; border: 1px solid var(--silk-toc-border-color, var(--silk-border-color)); padding: 1rem; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-button-circle, .silk-button-circle { padding: 0px; border-radius: 50%; }}}@scope (.silk-light, .silk-dark) {  @layer component-variants {  :where(&).silk-button-uncolored, .silk-button-uncolored { --silk-button-background-default-color: transparent; }}}@scope (*) {  @layer reset-compat {  :scope { all: revert-layer; }}  @layer kobweb-compose-compat {  :scope { all: revert-layer; }}  @layer base-compat {  :scope { all: revert-layer; }}  @layer component-styles-compat {  :scope { all: revert-layer; }}  @layer component-variants-compat {  :scope { all: revert-layer; }}  @layer restricted-styles-compat {  :scope { all: revert-layer; }}  @layer general-styles-compat {  :scope { all: revert-layer; }}}</style>
-   <style>@layer reset-compat, reset, kobweb-compose-compat, kobweb-compose, base-compat, base, component-styles-compat, component-styles, component-variants-compat, component-variants, restricted-styles-compat, restricted-styles, general-styles-compat, general-styles;@media not all and (min-width: 0px) {  .silk-display-if-at-least-zero { display: none !important; }}@media (min-width: 0px) {  .silk-display-until-zero { display: none !important; }}@media not all and (min-width: 30rem) {  .silk-display-if-at-least-sm { display: none !important; }}@media (min-width: 30rem) {  .silk-display-until-sm { display: none !important; }}@media not all and (min-width: 48rem) {  .silk-display-if-at-least-md { display: none !important; }}@media (min-width: 48rem) {  .silk-display-until-md { display: none !important; }}@media not all and (min-width: 62rem) {  .silk-display-if-at-least-lg { display: none !important; }}@media (min-width: 62rem) {  .silk-display-until-lg { display: none !important; }}@media not all and (min-width: 80rem) {  .silk-display-if-at-least-xl { display: none !important; }}@media (min-width: 80rem) {  .silk-display-until-xl { display: none !important; }}</style>
-   <div class="silk-surface silk-smooth-color" style="height: 100%;">
-    <div class="kobweb-box kobweb-align-top-start" style="width: 100%; height: 100%; position: relative;">
-     <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="width: 100%; height: 100%; padding: 1rem;">
-      <div class="kobweb-row kobweb-arrange-start kobweb-align-top" style="width: 100%; padding: 0px 5rem;">
-       <div class="kobweb-spacer"></div><button class="silk-button silk-button-circle silk-button-uncolored silk-button-size_md" style="--silk-button-font-size: 1em;" type="button">
-        <div class="kobweb-row kobweb-arrange-center kobweb-align-center-vert">
-         <svg style="overflow: visible;" width="1em" viewBox="0 0 200 200" stroke="currentColor" fill="none" stroke-width="20">
-          <path d="M 175 106.583 A 75 75 0 1 1 93.417 25 A 58.333 58.333 0 0 0 175 106.583 Z"></path>
-         </svg>
-        </div></button>
-       <div class="kobweb-box kobweb-align-top-start" style="display: none;"></div>
-      </div>
-      <div class="kobweb-row kobweb-arrange-start kobweb-align-center-vert" style="width: 100%; flex-grow: 1; padding: 0px 20%;">
-       <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="flex-grow: 0.6;">
-        <div class="kobweb-row kobweb-arrange-start kobweb-align-center-vert">
-         <span class="silk-span-text" style="font-size: 3rem; font-weight: bold; white-space: pre-wrap;">Hello </span><span class="silk-span-text" style="font-size: 3rem; font-weight: bold; cursor: pointer;">👋🏻</span>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gökberk Yağcı - Personal Website</title>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script src="script.js" defer></script>
+  <script>
+    // Apply theme immediately to prevent flash
+    (function () {
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+
+<body class="min-h-screen bg-base-100 flex items-start justify-center p-6 pt-20" id="vanta-bg">
+  <div class="min-w-[70%] w-[70%] mx-auto">
+    <div class="card bg-base-200 shadow-xl">
+      <div class="card-body p-6">
+        <div class="navbar bg-base-200 px-0"
+          style="min-height: 0.75rem; padding-top: 0; padding-bottom: 0; line-height: 1;">
+          <div class="navbar-start">
+            <a class="btn btn-ghost text-xl font-bold">gokberkyagci.com</a>
+          </div>
+          <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="active">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Skills</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+            <button class="btn btn-ghost btn-circle ml-4" id="theme-toggle">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="theme-toggle-dark-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+              </svg>
+              <svg class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                id="theme-toggle-light-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                </path>
+              </svg>
+            </button>
+          </div>
+          <div class="navbar-end lg:hidden">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16">
+                  </path>
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Skills</a></li>
+                <li><a>Contact</a></li>
+                <li>
+                  <button class="btn btn-ghost btn-sm justify-start" id="theme-toggle-mobile">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      id="theme-toggle-dark-icon-mobile">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                      </path>
+                    </svg>
+                    <svg class="w-4 h-4 mr-2 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      id="theme-toggle-light-icon-mobile">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                      </path>
+                    </svg>
+                    Toggle Theme
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="kobweb-row kobweb-arrange-start kobweb-align-top">
-         <span class="silk-span-text" style="font-size: 1.6rem; font-weight: normal; white-space: pre-wrap;">I'm </span><span class="silk-span-text" style="color: rgb(60, 131, 239); font-size: 1.6rem; font-weight: normal;">Gökberk Yağcı</span>
-        </div><span class="silk-span-text" style="font-size: 1.6rem; font-weight: normal;">I am mobile developer and I love to create apps.</span>
-       </div>
-       <div class="silk-display-if-at-least-lg kobweb-box kobweb-align-top-start" style="flex-grow: 0.1;"></div>
-       <div class="silk-display-if-at-least-lg kobweb-box kobweb-align-center" style="flex-grow: 0.3;">
-        <div class="kobweb-box kobweb-align-center" style="animation: 3000ms ease-in-out 0s 1 normal forwards running floating;">
-         <img style="max-width: 50%; height: fit-content;" src="person-light.svg" alt="Logo">
+        <div class="divider -mx-6 my-1"></div>
+
+        <!-- Content Stack Wrapper -->
+        <div class="content-stack">
+          <!-- Home Section -->
+          <div id="home-section" class="section-content active flex flex-col justify-start lg:justify-center">
+            <div class="flex flex-col items-center justify-start lg:flex-row lg:items-center lg:justify-between py-6 px-4 w-full lg:py-8 lg:px-8">
+              <div class="w-full mb-6 lg:w-1/2 lg:mb-0 text-center lg:text-left">
+                <h1 class="text-3xl lg:text-4xl font-bold mb-2">Hello <span
+                    class="wave-emoji inline-block cursor-default">👋🏻</span></h1>
+                <h2 class="text-2xl lg:text-3xl font-semibold mb-6">I'm <span class="colorful-name">Gökberk Yağcı</span></h2>
+                <div class="relative pl-4 border-l-2 border-base-300 lg:max-w-none max-w-md mx-auto lg:mx-0">
+                  <p class="text-base lg:text-lg italic text-base-content/80">
+                    Passionate about mobile architecture, clean code, and scalable Android systems.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full flex justify-center lg:w-1/2 lg:justify-end">
+                <div class="hero-image">
+                  <img src="assets/images/me.jpg" alt="Gökberk Yağcı" class="max-w-[200px] lg:max-w-sm">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Section -->
+          <div id="about-section" class="section-content flex flex-col justify-start lg:justify-center">
+            <div class="py-6 px-4 lg:py-8 lg:px-8">
+              <h2 class="text-3xl font-bold mb-6 text-left">About Me</h2>
+              <div class="max-w-4xl text-left">
+                <p class="text-lg mb-4">
+                  I'm a senior mobile developer with experience building large-scale mobile applications, including financial and loyalty products used by many users. I focus on clean architecture, scalability, and writing code that remains easy to understand and maintain over time.
+                </p>
+                <p class="text-lg mb-4">
+                  I enjoy improving existing systems, learning new technologies, and collaborating with others to build reliable, high-quality mobile applications.
+                </p>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <span class="badge badge-success">Android Native</span>
+                  <span class="badge badge-primary">Flutter</span>
+                  <span class="badge badge-secondary">Kotlin Multiplatform</span>
+                  <span class="badge badge-accent">Laravel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Section -->
+          <div id="skills-section" class="section-content">
+            <div class="py-8 px-8">
+              <h2 class="text-3xl font-bold mb-6">Skills & Expertise</h2>
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 class="text-xl font-semibold mb-4">Technical Skills</h3>
+                  <div class="space-y-4">
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Mobile Application Development</span>
+                        <span class="text-sm opacity-70">Expert</span>
+                      </div>
+                      <div class="w-full bg-base-300 rounded-full h-2">
+                        <div class="bg-success h-2 rounded-full" style="width: 95%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Application Architecture & Design</span>
+                        <span class="text-sm opacity-70">Expert</span>
+                      </div>
+                      <div class="w-full bg-base-300 rounded-full h-2">
+                        <div class="bg-success h-2 rounded-full" style="width: 92%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Scalable Systems</span>
+                        <span class="text-sm opacity-70">Advanced</span>
+                      </div>
+                      <div class="w-full bg-base-300 rounded-full h-2">
+                        <div class="bg-primary h-2 rounded-full" style="width: 85%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Cross-Platform Development</span>
+                        <span class="text-sm opacity-70">Advanced</span>
+                      </div>
+                      <div class="w-full bg-base-300 rounded-full h-2">
+                        <div class="bg-primary h-2 rounded-full" style="width: 87%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Performance Optimization</span>
+                        <span class="text-sm opacity-70">Advanced</span>
+                      </div>
+                      <div class="w-full bg-base-300 rounded-full h-2">
+                        <div class="bg-secondary h-2 rounded-full" style="width: 83%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Testing & Debugging</span>
+                        <span class="text-sm opacity-70">Advanced</span>
+                      </div>
+                      <div class="w-full bg-base-300 rounded-full h-2">
+                        <div class="bg-secondary h-2 rounded-full" style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-xl font-semibold mb-4">Technologies & Tools</h3>
+                  <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="badge badge-outline">Mobile SDKs</span>
+                    <span class="badge badge-outline">Cross-Platform Frameworks</span>
+                    <span class="badge badge-outline">REST APIs</span>
+                    <span class="badge badge-outline">GraphQL</span>
+                    <span class="badge badge-outline">Git</span>
+                    <span class="badge badge-outline">CI / CD</span>
+                    <span class="badge badge-outline">Cloud Services</span>
+                    <span class="badge badge-outline">Modular Codebases</span>
+                    <span class="badge badge-outline">Design Patterns</span>
+                  </div>
+
+                  <h3 class="text-xl font-semibold mb-4">Soft Skills</h3>
+                  <div class="grid grid-cols-2 gap-3">
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Team Leadership</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Technical Mentorship</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Problem Solving</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Communication</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Agile / Scrum</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Code Review</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <svg class="w-4 h-4 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Product Collaboration</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div id="contact-section" class="section-content">
+            <div class="py-6 px-8">
+              <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+              <div class="max-w-2xl">
+                <p class="text-lg mb-6">
+                  I'm always interested in hearing about new projects and opportunities. Whether you have a question or
+                  just want to say hi, feel free to reach out!
+                </p>
+
+                <form id="contact-form" class="space-y-3">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="form-control">
+                      <label class="label pt-0 pb-1">
+                        <span class="label-text">Name</span>
+                      </label>
+                      <input type="text" id="name" name="name" placeholder="Your name" class="input input-bordered w-full" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label pt-0 pb-1">
+                        <span class="label-text">Email</span>
+                      </label>
+                      <input type="email" id="email" name="email" placeholder="Your email" class="input input-bordered w-full" required />
+                    </div>
+                  </div>
+                  <div class="form-control">
+                    <label class="label pt-0 pb-1">
+                      <span class="label-text">Subject</span>
+                    </label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" class="input input-bordered w-full" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label pt-0 pb-1">
+                      <span class="label-text">Message</span>
+                    </label>
+                    <textarea id="message" name="message" class="textarea textarea-bordered h-24 w-full" placeholder="Your message" required></textarea>
+                  </div>
+                  <button type="submit" id="submit-btn" class="btn btn-primary w-full mt-2">
+                    <span id="btn-text">Send Message</span>
+                    <span id="btn-loading" class="loading loading-spinner loading-sm hidden"></span>
+                  </button>
+                </form>
+                
+                <!-- Success/Error Messages -->
+                <div id="form-message" class="hidden mt-4"></div>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
       </div>
-     </div>
     </div>
-   </div>
   </div>
-  <script src="/web.js"></script>
- </body>
+
+  </body>
+
 </html>
